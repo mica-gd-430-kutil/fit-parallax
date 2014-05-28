@@ -2,35 +2,25 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>parallax</title>
+        <title>Parallax Example</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- build:css styles/main.css -->
         <link rel="stylesheet" href="scripts/vendor/skeleton/stylesheets/base.css">
         <link rel="stylesheet" href="scripts/vendor/skeleton/stylesheets/skeleton.css">
         <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
 
-        <!-- build:js scripts/vendor/modernizr.js -->
         <script src="scripts/vendor/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
     </head>
     <body>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="region section-01 full" id="section-01">
+        <div class="region section-01 full">
             <div class="container">
                 <div class="row">
-                    <div class="section-01-content six columns offset-by-five" data-anchor-target="#section-01" data-top="transform: translateY(200px);" data-top-bottom="transform: translateY(500px);">
+                    <div class="section-01-content six columns offset-by-five">
                         <h1>Parallax Demo</h1>
                         <p>Welcome to the Parallax Demo</p>
                     </div>
@@ -38,10 +28,10 @@
             </div>
         </div>
 
-        <div class="content" id="content" data--10p-bottom-top="transform: translateY(0%);" data-bottom-bottom="transform: translateY(-100%);">
-            <div class="region section-02" data-bottom-top="background-color: rgba(93, 165, 200, .5);" data-center-top="background-color: rgba(93, 165, 200, 1);">
+        <div class="content">
+            <div class="region section-02">
                 <div class="container">
-                    <div class="row" id="section-02-content">
+                    <div class="row">
                         <div class="twelve columns">
                             <h2>Section 1</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, praesentium, exercitationem sunt vitae beatae nesciunt maxime molestiae ullam dolorem ducimus. Similique, facere ut provident culpa eligendi obcaecati nostrum minus omnis!</p>
@@ -57,7 +47,7 @@
 
             <div class="region section-03">
                 <div class="container">
-                    <div class="row" id="section-03-content">
+                    <div class="row">
                         <div class="twelve columns">
                             <h1>Parallax Demo</h1>
                             <h2>Section 2</h2>
@@ -73,19 +63,12 @@
             </div><!-- /.content section-01 -->
         </div>
 
-        <div class="skroll-bg" id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
-        <div class="skroll-bg" id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
-        <div class="skroll-bg" id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+        <div class="skroll-bg" id="bg1"></div>
+        <div class="skroll-bg" id="bg2"></div>
+        <div class="skroll-bg" id="bg3"></div>
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
         <script src="scripts/vendor/jquery/dist/jquery.js"></script>
-        <script src="scripts/vendor/skrollr/src/skrollr.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
 
-        <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <!-- endbuild -->
 </body>
 </html>
